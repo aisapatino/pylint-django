@@ -42,5 +42,6 @@ _add_transform('django.forms', 'ModelForm')
 _add_transform('django.db.models',
                'Model',
                'Manager')
+_add_transform('django.contrib.auth.models', 'UserManager')
 _add_transform('django.utils.translation', 'ugettext_lazy')
 _add_transform('mongoengine', 'Document')
